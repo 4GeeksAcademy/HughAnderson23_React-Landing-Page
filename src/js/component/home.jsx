@@ -1,5 +1,6 @@
 import React from "react";
 
+
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 
@@ -20,7 +21,12 @@ const Home = () => {
 				love!
 			</p>
 		</div>
+		
 	);
 };
 
 export default Home;
+
+
+  
+
