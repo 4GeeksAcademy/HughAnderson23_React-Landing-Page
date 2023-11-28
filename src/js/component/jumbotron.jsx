@@ -14,4 +14,4 @@ const Jumbotron = () => {
   )
 }
 
-export {Jumbotron}
+export default Jumbotron
