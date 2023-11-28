@@ -1,6 +1,6 @@
 import React from 'react'
 
-// import {Navbar} from './Navbar.jsx'
+import Navbar from './navbar.jsx'
 import Jumbotron from './jumbotron.jsx'
 import { Footer } from './footer.jsx'
 import BootstrapCard from './cards.jsx'
@@ -8,7 +8,7 @@ import BootstrapCard from './cards.jsx'
 const Home = () => {
   return (
     <div className='contianer-fluid mx-auto'>
-    {/* <Navbar /> */}
+    <Navbar />
     <div className='container'>
       <Jumbotron />
       <div className='row g-4 mx-auto'>
